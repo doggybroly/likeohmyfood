@@ -245,4 +245,36 @@
     font-size: 20px;
   }
 }
+
+@media screen and (max-width: 370px) {
+  nav .fa-arrow-left {
+    position: relative;
+    left: -10px;
+  }
+  .mag img, .mag1 img, .mag2 img, .mag3 img {
+    width: 100%;
+  }
+  .choice-menu .push {
+    width: 320px;
+  }
+  .choice-menu .push h4 {
+    font-size: 18px;
+    width: 250px;
+  }
+  .choice-menu .push p {
+    font-size: 18px;
+  }
+  .choice-menu .push .cadre {
+    position: relative;
+    left: 80px;
+  }
+  .choice-menu .push:hover h4, .choice-menu .push:hover p {
+    width: 200px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+}
 /*# sourceMappingURL=responsive-card.css.map */

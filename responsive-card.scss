@@ -82,3 +82,42 @@
     .commander {@include commander;}
     footer {@include footer;}
 }
+
+@media #{$mobile}{
+    nav{
+        .fa-arrow-left{
+            position: relative;
+            left:-10px;
+        }
+    }
+    .mag,.mag1,.mag2,.mag3{
+        img{
+            width: 100%;
+        } 
+    } 
+    .choice-menu{
+        .push {
+            width: 320px;
+            h4 {
+            font-size: 18px;
+            width: 250px;         
+            }
+           p{
+                font-size: 18px;
+           }
+            .cadre {
+               position: relative;
+               left: 80px;
+            }
+            &:hover h4,&:hover p{
+                width: 200px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                transition: 0.5s;
+            }
+        }       
+    }
+   
+   
+}
