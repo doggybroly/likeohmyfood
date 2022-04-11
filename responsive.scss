@@ -127,10 +127,17 @@
 }
 
 @media #{$mobile}{
-   .bout{
-       button{
-           display: flex;
-           flex-wrap: wrap;
-       }
-   }
+  .bout{
+      position: relative;
+      left: -80px; 
+      width: 380px;
+      button{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: start;
+        color: red;
+      }
+  }
 }
