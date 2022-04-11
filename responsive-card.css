@@ -277,7 +277,7 @@
   }
   .choice-menu .push:hover h4,
   .choice-menu .push:hover p {
-    width: 200px;
+    width: 180px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
