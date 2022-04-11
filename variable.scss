@@ -5,6 +5,7 @@ $gradient:linear-gradient(to left top, rgba($primary, 1), rgba($secondary, 1));
 $shadow: 0 5px 15px rgb(185, 179, 179);
 $desktop: "screen and (min-width: 961px)";
 $tablette: "screen and (min-width: 770px) and (max-width: 960px)";
+$mobile: "screen and (max-width: 370px)";
 
 @keyframes action {
     from{

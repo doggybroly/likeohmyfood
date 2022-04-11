@@ -125,3 +125,12 @@
         }
     }   
 }
+
+@media #{$mobile}{
+   .bout{
+       button{
+           display: flex;
+           flex-wrap: wrap;
+       }
+   }
+}
