@@ -253,6 +253,17 @@
   }
   .mag img, .mag1 img, .mag2 img, .mag3 img {
     width: 100%;
+    height: 250px;
+  }
+  .menu .title h1 {
+    font-size: 25px;
+  }
+  .menu .title .heart i {
+    font-size: 25px;
+  }
+  .menu .title .heart .coeur {
+    position: relative;
+    left: -25px;
   }
   .choice-menu .push {
     width: 320px;
@@ -268,13 +279,9 @@
     position: relative;
     left: 80px;
   }
-  .choice-menu .push:hover h4, .choice-menu .push:hover p {
-    width: 200px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+  .commander {
+    position: relative;
+    left: -25px;
   }
 }
 /*# sourceMappingURL=responsive-card.css.map */
