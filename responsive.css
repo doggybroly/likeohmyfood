@@ -155,22 +155,11 @@
 @media screen and (max-width: 370px) {
   .bout {
     position: relative;
-    left: -80px;
-    width: 380px;
+    left: -100px;
+    width: 420px;
   }
-  .bout button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    text-align: start;
-    color: red;
+  .bout i {
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

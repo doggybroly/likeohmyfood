@@ -129,15 +129,11 @@
 @media #{$mobile}{
   .bout{
       position: relative;
-      left: -80px; 
-      width: 380px;
-      button{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        text-align: start;
-        color: red;
+      left: -100px; 
+      width: 420px;
+      i{
+          font-size: 20px;
       }
+      
   }
 }
