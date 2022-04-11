@@ -127,13 +127,48 @@
 }
 
 @media #{$mobile}{
+    .fonct{
+        h3 {
+            position: relative;
+            left: -15px;
+        }
+    }
   .bout{
       position: relative;
       left: -100px; 
       width: 420px;
+   
       i{
           font-size: 20px;
+      }      
+  }
+  .card{
+      h3{
+         position: relative;
+         left: -15px;
       }
-      
+    .pic{
+        width: 300px;
+        height: auto;
+        position: relative;
+        left: 6px;
+        img {
+            width: 300px;
+            height: auto;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        .new{
+            position: absolute;
+            top: 20px;
+            left: 200px;
+        }
+        .fa-regular,.coeur{
+            position: absolute;
+            left: 250px;
+            bottom: 15px;
+        }
+    }
+    
   }
 }
