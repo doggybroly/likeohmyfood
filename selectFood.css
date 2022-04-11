@@ -29,6 +29,10 @@
           box-shadow: none;
 }
 
+.navigue .fa-arrow-left {
+  color: black;
+}
+
 .mag, .mag1, .mag2, .mag3 {
   position: relative;
   top: 40px;

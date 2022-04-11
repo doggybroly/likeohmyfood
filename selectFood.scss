@@ -5,12 +5,14 @@
     position: relative;
     top: 20px;
     box-shadow: none;
+    .fa-arrow-left{
+        color: black;
+    }
 }
 
 .mag,.mag1,.mag2,.mag3{
     @include image;
 }
-
 
 .menu {
     background-color: rgb(243, 243, 243);
