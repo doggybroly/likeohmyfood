@@ -1,0 +1,84 @@
+@mixin image{ 
+    position: relative;
+    top: 40px;   
+    img {
+        height: 320px;
+    }
+}
+@mixin palette{
+    background-image: url("./image/jay-wennington.jpg");
+    background-position:center;
+    height: 50vh;    
+    img {
+        display: none;
+    }
+}
+@mixin enchanté {
+    background-image: url("./image/stil-u2l2.jpg");
+    background-position:center;
+    height: 50vh;   
+    img {
+        display: none;
+    }
+}
+@mixin française {
+    background-image: url("./image/toa-heftiba.jpg");
+    background-position: center;
+    height: 50vh;
+
+    img {
+        display: none;
+    }
+}
+@mixin délice {
+    background-image: url("./image/louis-hansel.jpg");
+    background-position: center;
+    height: 50vh;
+
+    img {
+        display: none;
+    }
+}
+@mixin commander{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -50px;
+}
+@mixin push {
+    width: 550px;
+    
+    .cadre {
+        position: relative;
+        left: 80px;
+    }
+    
+    p {
+        width: 350px;
+    }
+    
+    &:hover h4,
+    &:hover p {
+        width: 550px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+}
+@mixin footer{
+    text-align: center;   
+        h2 {
+            text-align: center;
+            font-size: 40px;
+        }
+        .part {
+            display: flex;
+            justify-content: space-around;    
+            .part1,
+            .part2 {
+                text-align: justify;
+                font-size: 20px;
+            }
+        }
+}

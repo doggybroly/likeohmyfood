@@ -1,0 +1,248 @@
+@-webkit-keyframes action {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes action {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@media screen and (min-width: 961px) {
+  nav img {
+    width: 300px;
+  }
+  nav i {
+    font-size: 30px;
+    position: relative;
+    left: -50px;
+  }
+  .mag {
+    background-image: url("./image/jay-wennington.jpg");
+    background-position: center;
+    height: 50vh;
+  }
+  .mag img {
+    display: none;
+  }
+  .mag1 {
+    background-image: url("./image/stil-u2l2.jpg");
+    background-position: center;
+    height: 50vh;
+  }
+  .mag1 img {
+    display: none;
+  }
+  .mag2 {
+    background-image: url("./image/toa-heftiba.jpg");
+    background-position: center;
+    height: 50vh;
+  }
+  .mag2 img {
+    display: none;
+  }
+  .mag3 {
+    background-image: url("./image/louis-hansel.jpg");
+    background-position: center;
+    height: 50vh;
+  }
+  .mag3 img {
+    display: none;
+  }
+  .menu {
+    padding: 20px 0 50px;
+  }
+  .menu .title {
+    position: relative;
+    top: -15px;
+  }
+  .menu .title h1 {
+    font-size: 35px;
+    letter-spacing: 5px;
+  }
+  .menu .title i {
+    position: relative;
+    left: 20px;
+  }
+  .menu .title .coeur {
+    position: relative;
+    left: -10px;
+    opacity: 0;
+  }
+  .menu .commander {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    left: -50px;
+  }
+  .main-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-menu .txt-menu {
+    text-align: start;
+  }
+  .main-menu .choice {
+    display: inline-block;
+  }
+  .main-menu .push {
+    width: 550px;
+    display: block;
+  }
+  .main-menu .push .cadre {
+    position: relative;
+    left: 80px;
+  }
+  .main-menu .push p {
+    width: 350px;
+  }
+  .main-menu .push:hover h4,
+  .main-menu .push:hover p {
+    width: 550px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .main-menu .push h4, .main-menu .push p {
+    width: 400px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+  footer .part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .part .part1,
+  footer .part .part2 {
+    text-align: justify;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 770px) and (max-width: 960px) {
+  .mag {
+    background-image: url("./image/jay-wennington.jpg");
+    background-position: center;
+    height: 50vh;
+  }
+  .mag img {
+    display: none;
+  }
+  .mag1 {
+    background-image: url("./image/stil-u2l2.jpg");
+    background-position: center;
+    height: 50vh;
+  }
+  .mag1 img {
+    display: none;
+  }
+  .mag2 {
+    background-image: url("./image/toa-heftiba.jpg");
+    background-position: center;
+    height: 50vh;
+  }
+  .mag2 img {
+    display: none;
+  }
+  .mag3 {
+    background-image: url("./image/louis-hansel.jpg");
+    background-position: center;
+    height: 50vh;
+  }
+  .mag3 img {
+    display: none;
+  }
+  .main-menu {
+    text-align: center;
+  }
+  .main-menu hr {
+    position: relative;
+    left: 45.5%;
+  }
+  .main-menu .push {
+    width: 550px;
+  }
+  .main-menu .push .cadre {
+    position: relative;
+    left: 80px;
+  }
+  .main-menu .push p {
+    width: 350px;
+  }
+  .main-menu .push:hover h4,
+  .main-menu .push:hover p {
+    width: 550px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .main-menu .push h4,
+  .main-menu .push p {
+    width: 400px;
+  }
+  .commander {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    left: -50px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+  footer .part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .part .part1,
+  footer .part .part2 {
+    text-align: justify;
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=responsive-card.css.map */

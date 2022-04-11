@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico &family=Raleway&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import "variable.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: $shadow;
+    img{
+        width: 200px;
+        padding: 20px;
+    }
+    i{
+        font-size: 25px;
+        position: relative;
+        left: -50px;
+    }
+}
+.mag{
+    img{
+        width: 460px;
+    }   
+}
+.localisation{
+    text-align: center;
+    
+        .local{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(128, 128, 128,0.1);
+            padding: 15px;
+        }
+        i{
+            font-size: 20px;
+            position: relative;
+            left: -20px;
+        }
+}
+.res{
+    background-color: rgba(128, 128, 128,0.1);
+    padding: 0 0 40px;   
+        h1{
+            font-size: 28px;
+            padding: 20px;         
+        }
+        p{
+            font-size: 20px;
+            padding: 20px,10px;
+        }
+        .btn{
+            font-size: 18px;
+            width: 250px;
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 50px;
+            border: none;
+            box-shadow: $shadow;
+            cursor: pointer;
+            color: white;
+            background-image: $gradient;
+        }
+}
+.fonct{
+    @extend .localisation;
+    padding: 30px 0 40px 30px;
+        h3{
+            font-size: 22px;
+            padding: 0 0 10px;
+            text-align: left;
+        }
+}    
+.bout{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    left: -50px;
+    
+        .liste{
+            display: flex;
+            align-items: center;
+            position: relative;
+            left: 80px;
+        }
+        h4{
+            width: 15px;
+            padding: 10px;
+            color: white;
+            background-color: $primary;
+            border: none;
+            border-radius: 50%;
+            margin-right: 40px;
+        }
+        .chif{
+            position: relative;
+            left: -3px;
+        }
+        i{
+            font-size: 25px;
+            text-align: center;
+            transition: 0.5s;
+        }
+        &:hover i {
+            color: $primary;
+            transition: 0.5s;
+        }
+       a{
+           margin-left: 30px;
+           color: black;
+           text-decoration: none;
+       }
+       #phone{
+           position: relative;
+           left: 10px;
+       }
+        button{
+            font-size: 18px;
+            padding: 25px;
+            background-color: rgb(241, 241, 241);
+            border-radius: 20px;
+            border: none;
+            width: 350px;
+            cursor: pointer;
+            box-shadow: $shadow;
+            transition: 0.5s;
+            &:hover{
+                background-color: lighten($primary,32);
+                transition: 0.5s;
+            }
+        
+        }
+       
+}
+
+.card{
+    @extend .fonct;
+    background-color: rgba(128, 128, 128,0.2);
+        h3{
+            margin: 20px 5px;
+        }
+        .new{
+            position: absolute;
+            top: 20px;
+            left: 250px;
+            text-align: center;
+            border-radius: 2px;
+            padding: 5px;
+            width: 80px;
+            background-color: $tertiary;
+        }
+        .pic{           
+            width: 350px;
+            height: 250px;
+            margin-bottom: 20px;
+            background-color: white;
+            text-align: start;
+            border-radius: 15px; 
+            box-shadow: $shadow;
+            position: relative;
+            left: 15px;
+        }
+        img{
+            width: 350px;
+            height: 180px;  
+            border-top-left-radius: 15px;       
+            border-top-right-radius: 15px;           
+        }
+}
+.disp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+        .text{          
+            padding: 8px;
+            margin: 0 5px;
+            p{
+                margin: 5px 0 ;
+            }
+        }
+}
+.icon{
+     .coeur{
+            opacity: 0;
+            background-clip: text;
+            background-image: $gradient;
+            color: transparent;
+            transition: all 0.5s ease-in-out;
+        }
+        .fa-regular,.coeur{
+            font-size: 25px;
+            cursor: pointer; 
+            position: absolute;
+            left: 300px;
+            bottom: 15px; 
+            &:hover {
+                background-clip: text;
+                background-image: $gradient;
+                color: transparent;
+                opacity: 1;
+                transition: all 0.5s ease-in-out;
+            }
+       }
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    color: white;
+
+    h2 {
+        font-family: 'Shrikhand', cursive;
+        margin-bottom: 15px;
+    }
+}
+
+.foot {
+    margin-bottom: 10px;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .prop {
+        position: relative;
+        left: 6px;
+    }
+}
+
+       
+
+
+
+
+        
+ 
+     

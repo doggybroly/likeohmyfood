@@ -1,0 +1,154 @@
+@-webkit-keyframes action {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes action {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@media screen and (min-width: 961px) {
+  nav img {
+    width: 300px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .res {
+    height: 55vh;
+    background-image: url("./image/rest02.jpg");
+    background-position: center;
+    text-shadow: white 1px 2px;
+  }
+  .res .reserver {
+    position: relative;
+    top: 80px;
+  }
+  .fonct {
+    height: 20vh;
+  }
+  .fonct .fonct h3,
+  .fonct .card h3 {
+    position: relative;
+    left: 150px;
+    font-size: 25px;
+  }
+  .bout {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .boutton {
+    display: inline-block;
+  }
+  .card {
+    height: 50vh;
+  }
+  .card .card-menu {
+    position: relative;
+    top: 20px;
+  }
+  .card .pic {
+    display: inline-block;
+    margin: 15px;
+  }
+  .card .pic .text h4,
+  .card .pic p {
+    font-size: 18px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+  footer .part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .part .part1, footer .part .part2 {
+    text-align: justify;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 770px) and (max-width: 960px) {
+  .res {
+    background-image: url("./image/rest02.jpg");
+    background-position: center;
+    text-shadow: white 1px 2px;
+  }
+  .res .btn {
+    width: 250px;
+    position: relative;
+    left: 10px;
+  }
+  .fonct h3, .card h3 {
+    text-align: left;
+  }
+  .bout button {
+    width: 300px;
+  }
+  .boutton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .card-menu {
+    position: relative;
+    left: -25px;
+  }
+  .card-menu .pic {
+    display: inline-block;
+    margin: 15px;
+  }
+  .card-menu .pic .text h4,
+  .card-menu .pic p {
+    font-size: 18px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+  footer .part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .part .part1,
+  footer .part .part2 {
+    text-align: justify;
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

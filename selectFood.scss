@@ -1,0 +1,234 @@
+@import "variable.scss";
+@import "mixins.scss";
+
+.navigue {
+    position: relative;
+    top: 20px;
+    box-shadow: none;
+}
+
+.mag,.mag1,.mag2,.mag3{
+    @include image;
+}
+
+
+.menu {
+    background-color: rgb(243, 243, 243);
+    position: relative;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+    .btn {
+        position: relative;
+        left: 22%;
+        font-size: 18px;
+        width: 250px;
+        margin: 30px 0 50px;
+        padding: 20px;
+        border-radius: 50px;
+        box-shadow: $shadow;
+        border: none;
+        cursor: pointer;
+        color: white;
+        background-image: $gradient;
+    }
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-family: 'Shrikhand', cursive;
+        font-size: 30px;
+        padding: 20px;
+        margin-left: 5px;
+    }
+    .heart{
+        
+        i {
+            font-size: 30px;
+            margin-right: 0px;
+            cursor: pointer;
+        }
+        .coeur{
+            position:relative;
+            left: -30px;
+            opacity: 0;
+            background-clip: text;
+            background-image: $gradient;
+            color: transparent;
+            transition: all 0.5s ease-in-out;
+        }
+        .fa-regular,.coeur{
+            
+            &:hover {
+                background-clip: text;
+                background-image: $gradient;
+                color: transparent;
+                opacity: 1;
+                transition: all 0.5s ease-in-out;
+            }
+        }
+    }
+    
+}
+
+.txt-menu {
+    margin-bottom: 10px;   
+    span {
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+    hr {
+       
+        width: 50px;
+        margin: 5px;
+        border: 2px solid $tertiary;
+    }
+}
+
+.choice {
+    padding: 15px;
+    margin-left: 10px;
+    p {
+        font-size: 20px;
+    }  
+}
+.push {
+    animation: action 1s ease;
+    animation-fill-mode: both;
+        @for $i from 1 through 4 {           
+            &:nth-child(#{$i}) {
+                animation-delay: 0.2s * $i;
+            }
+        }
+    text-align: start;
+    width: 400px;
+    height: 80px;
+    margin: 10px 0 15px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: $shadow;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;  
+    &:hover .cadre {
+        transform: translateX(-80px);
+        transition: 0.5s;
+    }
+
+    &:hover i {
+        transform: rotate(360deg);
+        transition: 0.5s;
+    }
+
+    &:hover h4,
+    &:hover p {
+        width: 250px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    h4 {
+        width: 300px;
+        font-size: 20px;
+        padding: 12px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    p {
+        width: 320px;
+        font-size: 18px;
+        padding: 12px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .complet{
+        color: black;
+        text-decoration: none;
+    }
+    .prix {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        justify-content: space-between;
+        position: relative;
+        top: -20px;
+    }
+
+    h3 {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        font-size: 15px;
+        height: 60px;
+        transition: 0.5s;
+    }
+
+    
+
+    .cadre {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 355px;
+        transition: 0.5s;
+    }
+
+    .icon {
+        position: relative;
+        top: -13px;
+        padding: 2px;
+        background-color: $tertiary;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    i {
+        font-size: 15px;
+        margin: 25px;
+        padding: 5px;
+        color: $tertiary;
+        border: none;
+        border-radius: 50px;
+        background-color: white;
+    }
+
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    color: white;
+
+    h2 {
+        font-family: 'Shrikhand', cursive;
+        margin-bottom: 15px;
+    }
+}
+
+.foot {
+    margin-bottom: 10px;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .prop {
+        position: relative;
+        left: 6px;
+    }
+}

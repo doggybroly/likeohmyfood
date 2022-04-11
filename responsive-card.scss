@@ -1,0 +1,84 @@
+@import "variable.scss";
+@import "mixins.scss";
+
+@media #{$desktop}{
+    nav{
+        img{
+            width: 300px;
+        }
+        i{
+            font-size: 30px;
+            position: relative;
+            left: -50px;
+        }
+       
+    }
+    .mag{@include palette;}
+    .mag1{@include enchanté;}
+    .mag2{@include française;}
+    .mag3{@include délice;}
+    .menu{
+        padding: 20px 0 50px;
+        .title{
+            position: relative;
+            top: -15px;
+            h1 {
+                font-size: 35px;
+                letter-spacing: 5px;
+            }
+            i{
+                position: relative;
+                left: 20px;
+            }
+            .coeur{
+               position: relative;
+               left: -10px;
+                opacity: 0;
+            }
+        }
+        
+       .commander{@include commander;}
+    }
+    .main-menu{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       
+        .txt-menu {
+            text-align: start;
+        }
+        .choice{        
+            display: inline-block;        
+        }
+        .push{
+            @include push;
+            display: block;  
+            h4,p{
+                width: 400px
+            }                      
+        }        
+    }
+    footer {@include footer;}
+}
+
+@media #{$tablette}{
+    .mag{@include palette;}
+    .mag1{@include enchanté;}
+    .mag2{@include française;}
+    .mag3{@include délice;}   
+    .main-menu{
+        text-align: center;
+        hr{
+            position: relative;
+            left: 45.5%;
+        }
+        .push {@include push;
+            h4,
+            p {
+                width: 400px
+            }
+        }              
+    }
+    .commander {@include commander;}
+    footer {@include footer;}
+}
