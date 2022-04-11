@@ -275,6 +275,15 @@
   .choice-menu .push p {
     font-size: 18px;
   }
+  .choice-menu .push:hover h4,
+  .choice-menu .push:hover p {
+    width: 200px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
   .choice-menu .push .cadre {
     position: relative;
     left: 80px;
