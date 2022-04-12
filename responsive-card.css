@@ -288,6 +288,13 @@
     position: relative;
     left: 80px;
   }
+  .choice-menu .push .cadre .icon {
+    height: 80px;
+  }
+  .choice-menu .push .cadre .icon i {
+    position: relative;
+    top: 5px;
+  }
   .commander {
     position: relative;
     left: -25px;

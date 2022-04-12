@@ -134,6 +134,13 @@
             .cadre {
                position: relative;
                left: 80px;
+               .icon{
+                   height: 80px;
+                   i{
+                       position: relative;
+                       top: 5px;
+                   }
+               }
             }
            
         }       
