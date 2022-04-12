@@ -192,6 +192,7 @@
     .icon {
         position: relative;
         top: -12px;
+        height: 80px;
         padding: 2px;
         background-color: $tertiary;
         border-top-right-radius: 15px;
@@ -199,6 +200,8 @@
     }
 
     i {
+        position: relative;
+        top: 5px;
         font-size: 15px;
         margin: 25px;
         padding: 5px;

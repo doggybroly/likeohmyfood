@@ -79,6 +79,12 @@
             }
         }              
     }
+    .icon {
+        i {
+            position: relative;
+            top: 5px;
+        }
+    }
     .commander {@include commander;}
     footer {@include footer;}
 }
@@ -134,8 +140,7 @@
             .cadre {
                position: relative;
                left: 80px;
-               .icon{
-                   height: 80px;
+               .icon{                 
                    i{
                        position: relative;
                        top: 5px;

@@ -275,6 +275,7 @@
 .push .icon {
   position: relative;
   top: -12px;
+  height: 80px;
   padding: 2px;
   background-color: #99E2D0;
   border-top-right-radius: 15px;
@@ -282,6 +283,8 @@
 }
 
 .push i {
+  position: relative;
+  top: 5px;
   font-size: 15px;
   margin: 25px;
   padding: 5px;

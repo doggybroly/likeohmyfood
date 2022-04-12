@@ -215,6 +215,10 @@
   .main-menu .push p {
     width: 400px;
   }
+  .icon i {
+    position: relative;
+    top: 5px;
+  }
   .commander {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -287,9 +291,6 @@
   .choice-menu .push .cadre {
     position: relative;
     left: 80px;
-  }
-  .choice-menu .push .cadre .icon {
-    height: 80px;
   }
   .choice-menu .push .cadre .icon i {
     position: relative;
