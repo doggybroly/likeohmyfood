@@ -227,6 +227,16 @@ nav i {
   color: white;
   background-image: -webkit-gradient(linear, right bottom, left top, from(#9356dc), to(#ff79da));
   background-image: linear-gradient(to left top, #9356dc, #ff79da);
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.res .btn:hover {
+  scale: 1.02;
+  -webkit-box-shadow: 0 5px 15px #635f5f;
+          box-shadow: 0 5px 15px #635f5f;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
 }
 
 .fonct, .card {
@@ -320,6 +330,8 @@ nav i {
 
 .bout button:hover {
   background-color: #e9ddf8;
+  -webkit-box-shadow: 0 5px 15px #635f5f;
+          box-shadow: 0 5px 15px #635f5f;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -354,6 +366,15 @@ nav i {
           box-shadow: 0 5px 15px #b9b3b3;
   position: relative;
   left: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card .pic:hover {
+  -webkit-box-shadow: 0 5px 15px #635f5f;
+          box-shadow: 0 5px 15px #635f5f;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .card img {
