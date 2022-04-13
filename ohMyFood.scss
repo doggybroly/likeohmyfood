@@ -230,6 +230,7 @@ nav{
      .coeur{
             opacity: 0;
             background-clip: text;
+            -webkit-background-clip: text;          
             background-image: $gradient;
             color: transparent;
             transition: all 0.5s ease-in-out;
@@ -242,6 +243,7 @@ nav{
             bottom: 15px; 
             &:hover {
                 background-clip: text;
+                -webkit-background-clip: text;
                 background-image: $gradient;
                 color: transparent;
                 opacity: 1;
