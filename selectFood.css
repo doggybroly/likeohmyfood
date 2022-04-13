@@ -96,6 +96,7 @@
   left: -30px;
   opacity: 0;
   background-clip: text;
+  -webkit-background-clip: text;
   background-image: -webkit-gradient(linear, right bottom, left top, from(#9356dc), to(#ff79da));
   background-image: linear-gradient(to left top, #9356dc, #ff79da);
   color: transparent;
@@ -105,6 +106,7 @@
 
 .title .heart .fa-regular:hover, .title .heart .coeur:hover {
   background-clip: text;
+  -webkit-background-clip: text;
   background-image: -webkit-gradient(linear, right bottom, left top, from(#9356dc), to(#ff79da));
   background-image: linear-gradient(to left top, #9356dc, #ff79da);
   color: transparent;
