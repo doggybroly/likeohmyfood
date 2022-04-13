@@ -29,6 +29,118 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.load {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  position: fixed;
+  inset: 0;
+  background-color: #fffefe;
+  z-index: 1;
+  opacity: 0.8;
+  -webkit-animation: watchout 10s forwards;
+          animation: watchout 10s forwards;
+}
+
+.load .circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-animation: loading 3s linear 10s;
+          animation: loading 3s linear 10s;
+}
+
+.load .circle::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 5px #9356DC;
+          box-shadow: 0 0 5px #9356DC;
+}
+
+.load span {
+  color: grey;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 200px;
+  -webkit-animation: text 5s ease-in-out infinite;
+          animation: text 5s ease-in-out infinite;
+}
+
+@-webkit-keyframes watchout {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes watchout {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes loading {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-box-shadow: 1px 5px 2px #FF79DA;
+            box-shadow: 1px 5px 2px #FF79DA;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-box-shadow: 1px 5px 2px #9356DC;
+            box-shadow: 1px 5px 2px #9356DC;
+  }
+}
+
+@keyframes loading {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-box-shadow: 1px 5px 2px #FF79DA;
+            box-shadow: 1px 5px 2px #FF79DA;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-box-shadow: 1px 5px 2px #9356DC;
+            box-shadow: 1px 5px 2px #9356DC;
+  }
+}
+
+@-webkit-keyframes text {
+  50% {
+    color: white;
+  }
+}
+
+@keyframes text {
+  50% {
+    color: white;
+  }
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;

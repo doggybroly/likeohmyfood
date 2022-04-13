@@ -7,7 +7,68 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+.load{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+    position: fixed;
+    inset: 0;
+    background-color: rgb(255, 254, 254);
+    z-index: 1;
+    opacity: 0.8;
+    animation: watchout 3s forwards;
+    .circle {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        animation: loading 3s linear 3s;
+    }
+    .circle::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        box-shadow: 0 0 5px rgb($primary,0.8);
+    }
+    span {
+        color: grey;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 200px;
+        animation: text 3s ease-in-out;
+    }
+}
+@keyframes watchout {
+    from{
+        opacity: 0.8;
+    }
+    to{
+        // opacity: 0;
+    }
+}
+@keyframes loading {
+    // from {
+    //     transform: rotate(0deg);
+    //     box-shadow: 1px 5px 2px $secondary;
+    // }
 
+    to {
+        transform: rotate(360deg);
+        box-shadow: 1px 5px 2px $tertiary;
+    }
+}
+@keyframes text {
+    50% {
+        color: white;
+    }
+}
 nav{
     display: flex;
     justify-content: center;
