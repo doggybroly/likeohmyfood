@@ -115,8 +115,8 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  -webkit-animation: loading 2s linear infinite;
-          animation: loading 2s linear infinite;
+  -webkit-animation: loading 2s linear 3s;
+          animation: loading 2s linear 3s;
 }
 
 .load .circle::before {
@@ -138,8 +138,8 @@
   text-transform: uppercase;
   letter-spacing: 5px;
   line-height: 200px;
-  -webkit-animation: text 3s ease-in-out infinite;
-          animation: text 3s ease-in-out infinite;
+  -webkit-animation: text 3s ease-in-out 3s;
+          animation: text 3s ease-in-out 3s;
 }
 
 nav {

@@ -22,6 +22,66 @@
   }
 }
 
+@-webkit-keyframes watchout {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes watchout {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes loading {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-box-shadow: 2px 5px 2px #99E2D0;
+            box-shadow: 2px 5px 2px #99E2D0;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-box-shadow: 2px 5px 2px #99E2D0;
+            box-shadow: 2px 5px 2px #99E2D0;
+  }
+}
+
+@keyframes loading {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-box-shadow: 2px 5px 2px #99E2D0;
+            box-shadow: 2px 5px 2px #99E2D0;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-box-shadow: 2px 5px 2px #99E2D0;
+            box-shadow: 2px 5px 2px #99E2D0;
+  }
+}
+
+@-webkit-keyframes text {
+  50% {
+    color: white;
+  }
+}
+
+@keyframes text {
+  50% {
+    color: white;
+  }
+}
+
 @media screen and (min-width: 961px) {
   nav img {
     width: 300px;

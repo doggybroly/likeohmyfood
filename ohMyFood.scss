@@ -24,7 +24,7 @@
         width: 200px;
         height: 200px;
         border-radius: 50%;
-        animation: loading 2s linear infinite;
+        animation: loading 2s linear 3s;
     }
     .circle::before {
         content: "";
@@ -43,7 +43,7 @@
         text-transform: uppercase;
         letter-spacing: 5px;
         line-height: 200px;
-        animation: text 3s ease-in-out infinite;
+        animation: text 3s ease-in-out 3s;
     }
 }
 
