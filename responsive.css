@@ -216,18 +216,73 @@
   }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (min-width: 460px) and (max-width: 630px) {
+  .card-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: relative;
+    left: -20px;
+  }
+  .card-menu .pic {
+    width: 300px;
+    height: auto;
+    position: relative;
+    left: 6px;
+  }
+  .card-menu .pic img {
+    width: 300px;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card-menu .pic .new {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+  }
+  .card-menu .pic .fa-regular,
+  .card-menu .pic .coeur {
+    position: absolute;
+    left: 250px;
+    bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 370px), screen and (min-width: 371px) and (max-width: 459px) {
+  .fonct {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .fonct h3 {
     position: relative;
     left: -15px;
   }
   .bout {
-    position: relative;
     left: -100px;
-    width: 420px;
+    width: 420px i;
+    width-font-size: 20px;
   }
-  .bout i {
-    font-size: 20px;
+  .card .card-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: relative;
+    left: -20px;
   }
   .card h3 {
     position: relative;

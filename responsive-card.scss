@@ -88,8 +88,21 @@
     .commander {@include commander;}
     footer {@include footer;}
 }
+@media #{$mobile2}{
+   .mag,.mag1,.mag2,.mag3{
+       img{
+           width:100% ;
+       }
+   }
+    .txt-menu{
+        text-align: left;
+    }
+   .commander{
+     @include commander;
+   }
+}
 
-@media #{$mobile}{
+@media #{$mobile},#{$mobile1} {
     nav{
         .fa-arrow-left{
             position: relative;
@@ -102,6 +115,9 @@
             height: 250px;
         } 
     } 
+    .txt-menu {
+        text-align: left;
+    }
     .menu{
         .title{
             h1{
@@ -151,7 +167,6 @@
         }       
     }  
     .commander{
-        position: relative;
-        left: -25px;
+        @include commander;
     }
 }

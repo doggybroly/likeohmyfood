@@ -107,6 +107,7 @@
 }
 
 .menu {
+  text-align: center;
   background-color: #f3f3f3;
   position: relative;
   border-top-left-radius: 40px;
