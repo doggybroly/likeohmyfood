@@ -262,15 +262,18 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .fonct h3 {
     position: relative;
-    left: -15px;
-  }
-  .bout {
     left: -100px;
-    width: 420px i;
-    width-font-size: 20px;
+  }
+  .fonct .bout {
+    width: 420px;
+  }
+  .fonct .bout i {
+    font-size: 20px;
   }
   .card .card-menu {
     display: -webkit-box;

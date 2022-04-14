@@ -126,7 +126,6 @@
     }   
 }
 @media #{$mobile2}{
-   
     .card-menu{
         display: flex;
         justify-content:center;
@@ -161,58 +160,60 @@
         }
     }
 }
+
 @media #{$mobile},#{$mobile1} {    
     .fonct{   
         display: flex;
         justify-content:center;
-        h3 {
-            position: relative;
-            left: -15px;
-        }
-    }
-  .bout{
-    
-        left: -100px; 
-        width: 420px
-      i{
-          font-size: 20px;
-      }      
-  }
-  .card{
-    .card-menu{
-        display: flex;
-        justify-content:center;
         flex-wrap: wrap;
-        position: relative;
-        left: -20px;
+        
+            h3 {
+            position: relative;
+            left: -100px;
+            }
+            .bout {
+                width: 420px;
+                i {
+                    font-size: 20px;
+                }
+            }
     }
-      h3{
-         position: relative;
-         left: -15px;
-      }
-     
-    .pic{       
-        width: 300px;
-        height: auto;
-        position: relative;
-        left: 6px;
-        img {
-            width: 300px;
-            height: auto;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
+       
+        .card{
+            .card-menu{
+                display: flex;
+                justify-content:center;
+                flex-wrap: wrap;
+                position: relative;
+                left: -20px;
+            }
+            h3{
+                position: relative;
+                left: -15px;
+            }
+            
+            .pic{       
+                width: 300px;
+                height: auto;
+                position: relative;
+                left: 6px;
+                img {
+                    width: 300px;
+                    height: auto;
+                    border-top-left-radius: 15px;
+                    border-top-right-radius: 15px;
+                }
+                .new{
+                    position: absolute;
+                    top: 20px;
+                    left: 200px;
+                }
+                .fa-regular,.coeur{
+                    position: absolute;
+                    left: 250px;
+                    bottom: 15px;
+                }
+            }    
         }
-        .new{
-            position: absolute;
-            top: 20px;
-            left: 200px;
-        }
-        .fa-regular,.coeur{
-            position: absolute;
-            left: 250px;
-            bottom: 15px;
-        }
-    }    
-  }
-  
+    
 }
