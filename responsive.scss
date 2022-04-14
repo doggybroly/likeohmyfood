@@ -162,16 +162,19 @@
 }
 
 @media #{$mobile}{    
-    .fonct{   
-        
+    .fonct{  
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; 
+        max-width: 370px;
             h3 {
             position: relative;
             left: -15px;
             }
             .bout {
-                position: relative;
-                left: -100px;
-                width: 420px;
+               width: 420px;
+               position: relative;
+               left: -100px;
                 i {
                     font-size: 20px;
                 }
@@ -180,11 +183,11 @@
        
         .card{
             .card-menu{
-                display: flex;
-                justify-content:center;
-                flex-wrap: wrap;
-                position: relative;
-                left: -20px;
+            display: flex;
+            justify-content:center;
+            flex-wrap: wrap;
+            position: relative;
+            left: -20px;
             }
             h3{
                 position: relative;
