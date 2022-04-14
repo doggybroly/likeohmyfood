@@ -125,41 +125,7 @@
         }
     }   
 }
-@media #{$mobile2}{
-    .card-menu{
-        display: flex;
-        justify-content:center;
-        flex-wrap: wrap;
-        position: relative;
-        left: -20px;
-        .pic {
-            width: 300px;
-            height: auto;
-            position: relative;
-            left: 6px;
-        
-            img {
-                width: 300px;
-                height: auto;
-                border-top-left-radius: 15px;
-                border-top-right-radius: 15px;
-            }
-        
-            .new {
-                position: absolute;
-                top: 20px;
-                left: 200px;
-            }
-        
-            .fa-regular,
-            .coeur {
-                position: absolute;
-                left: 250px;
-                bottom: 15px;
-            }
-        }
-    }
-}
+
 
 @media #{$mobile}{    
     .fonct{  
