@@ -127,6 +127,7 @@
 }
 
 @media #{$mobile}{
+    
     .fonct{
         h3 {
             position: relative;
@@ -134,20 +135,27 @@
         }
     }
   .bout{
-      position: relative;
-      left: -100px; 
-      width: 420px;
+    //   position: relative;
+    //   left: -100px; 
+    //   width: 420px;
    
       i{
           font-size: 20px;
       }      
   }
   .card{
+     
       h3{
          position: relative;
          left: -15px;
       }
+      .card-menu{
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+      }
     .pic{
+        
         width: 300px;
         height: auto;
         position: relative;
