@@ -126,18 +126,17 @@
     }   
 }
 
-@media #{$mobile}{
-    
-    .fonct{
+@media #{$mobile}{    
+    .fonct{       
         h3 {
             position: relative;
             left: -15px;
         }
     }
   .bout{
-    //   position: relative;
-    //   left: -100px; 
-    //   width: 420px;
+      position: relative;
+      left: -100px; 
+      width: 420px;
    
       i{
           font-size: 20px;
@@ -149,11 +148,7 @@
          position: relative;
          left: -15px;
       }
-      .card-menu{
-          display: flex;
-          justify-content: center;
-          flex-wrap: wrap;
-      }
+     
     .pic{
         
         width: 300px;
