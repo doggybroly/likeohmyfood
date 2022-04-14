@@ -217,27 +217,16 @@
 }
 
 @media screen and (max-width: 370px) {
-  .fonct {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    max-width: 370px;
-  }
   .fonct h3 {
     position: relative;
     left: -15px;
   }
-  .fonct .bout {
+  .bout {
     width: 420px;
     position: relative;
     left: -100px;
   }
-  .fonct .bout i {
+  .bout i {
     font-size: 20px;
   }
   .card .card-menu {

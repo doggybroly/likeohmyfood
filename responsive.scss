@@ -128,16 +128,15 @@
 
 
 @media #{$mobile}{    
-    .fonct{  
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap; 
-        max-width: 370px;
+    .fonct{         
+        
             h3 {
             position: relative;
             left: -15px;
             }
+        }
             .bout {
+               
                width: 420px;
                position: relative;
                left: -100px;
@@ -145,7 +144,7 @@
                     font-size: 20px;
                 }
             }
-    }
+    
        
         .card{
             .card-menu{
