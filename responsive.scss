@@ -161,17 +161,16 @@
     }
 }
 
-@media #{$mobile},#{$mobile1} {    
+@media #{$mobile}{    
     .fonct{   
-        display: flex;
-        justify-content:center;
-        flex-wrap: wrap;
         
             h3 {
             position: relative;
-            left: -100px;
+            left: -15px;
             }
             .bout {
+                position: relative;
+                left: -100px;
                 width: 420px;
                 i {
                     font-size: 20px;
