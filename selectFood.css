@@ -391,33 +391,6 @@
   left: 50px;
 }
 
-.menu .pash {
-  width: 400px;
-  border-radius: 15px;
-}
-
-.menu .pash h4 {
-  font-size: 20px;
-}
-
-.menu .pash p {
-  font-size: 18px;
-}
-
-.menu .pash h4, .menu .pash p {
-  text-align: left;
-  padding: 5px;
-}
-
-.menu .pash .cadre {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
 footer {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 30px;
