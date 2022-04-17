@@ -104,7 +104,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   position: fixed;
   inset: 0;
   background-color: #fffefe;
@@ -199,6 +199,12 @@ nav i {
   left: -20px;
 }
 
+.localisation .region, .fonct .region, .card .region {
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
 .res {
   background-color: rgba(128, 128, 128, 0.1);
   padding: 0 0 40px;
@@ -223,6 +229,7 @@ nav i {
   border: none;
   -webkit-box-shadow: 0 5px 15px #b9b3b3;
           box-shadow: 0 5px 15px #b9b3b3;
+  position: relative;
   cursor: pointer;
   color: white;
   background-image: -webkit-gradient(linear, right bottom, left top, from(#9356dc), to(#ff79da));
@@ -434,6 +441,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 30px;
   color: white;
+  z-index: 2;
 }
 
 footer h2 {
@@ -453,5 +461,9 @@ footer h2 {
 .foot .prop {
   position: relative;
   left: 6px;
+}
+
+.foot .cont {
+  position: relative;
 }
 /*# sourceMappingURL=ohMyFood.css.map */

@@ -37,7 +37,7 @@
             }
         }
         
-       .commander{@include commander;}
+       .btn{@include commander;}
     }
     .main-menu{
         display: flex;
@@ -85,7 +85,7 @@
             top: 5px;
         }
     }
-    .commander {@include commander;}
+    .btn {@include commander;}
     footer {@include footer;}
 }
 @media #{$mobile2}{
