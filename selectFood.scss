@@ -110,6 +110,7 @@
     }  
 }
 .push {
+    
     animation: action 1s ease;
     animation-fill-mode: both;
         @for $i from 1 through 4 {           

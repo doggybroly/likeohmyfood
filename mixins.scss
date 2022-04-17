@@ -47,7 +47,8 @@
 }
 @mixin push {
     width: 550px;
-    
+    display: flex;
+    justify-content: center;
     .cadre {
         position: relative;
         left: 80px;

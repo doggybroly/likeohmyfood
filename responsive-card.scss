@@ -48,7 +48,8 @@
             text-align: start;
         }
         .choice{        
-            display: inline-block;        
+            display: inline-block; 
+
         }
         .push{
             @include push;
@@ -68,11 +69,13 @@
     .mag3{@include délice;}   
     .main-menu{
         text-align: center;
+      
         hr{
             position: relative;
             left: 45.5%;
         }
-        .push {@include push;
+      
+        .push{@include push;      
             h4,
             p {
                 width: 400px
