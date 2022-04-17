@@ -69,13 +69,16 @@
     .mag3{@include délice;}   
     .main-menu{
         text-align: center;
-      
+        .choice-menu{
+            position: relative;
+            left: 100px;
+        }
         hr{
             position: relative;
             left: 45.5%;
         }
       
-        .push{@include push;      
+        .push{ @include push;
             h4,
             p {
                 width: 400px
@@ -88,6 +91,7 @@
             top: 5px;
         }
     }
+   
     .btn {@include commander;}
     footer {@include footer;}
 }

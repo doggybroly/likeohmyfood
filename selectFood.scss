@@ -105,12 +105,13 @@
 .choice {
     padding: 15px;
     margin-left: 10px;
+
     p {
         font-size: 20px;
     }  
 }
 .push {
-    
+
     animation: action 1s ease;
     animation-fill-mode: both;
         @for $i from 1 through 4 {           
