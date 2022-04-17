@@ -1,0 +1,407 @@
+@-webkit-keyframes action {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes action {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes watchout {
+  from {
+    z-index: 1;
+    opacity: 0.8;
+  }
+  to {
+    z-index: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes watchout {
+  from {
+    z-index: 1;
+    opacity: 0.8;
+  }
+  to {
+    z-index: 0;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes loading {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-box-shadow: 2px 5px 2px #99E2D0;
+            box-shadow: 2px 5px 2px #99E2D0;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-box-shadow: 2px 5px 2px #99E2D0;
+            box-shadow: 2px 5px 2px #99E2D0;
+  }
+}
+
+@keyframes loading {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-box-shadow: 2px 5px 2px #99E2D0;
+            box-shadow: 2px 5px 2px #99E2D0;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-box-shadow: 2px 5px 2px #99E2D0;
+            box-shadow: 2px 5px 2px #99E2D0;
+  }
+}
+
+@-webkit-keyframes text {
+  50% {
+    color: white;
+  }
+}
+
+@keyframes text {
+  50% {
+    color: white;
+  }
+}
+
+.navigue {
+  position: relative;
+  top: 20px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navigue .fa-arrow-left {
+  color: black;
+}
+
+.mag, .mag1, .mag2, .mag3 {
+  position: relative;
+  top: 40px;
+}
+
+.mag img, .mag1 img, .mag2 img, .mag3 img {
+  height: 320px;
+}
+
+.menu {
+  text-align: center;
+  background-color: #f3f3f3;
+  position: relative;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.menu .btn {
+  position: relative;
+  left: 22%;
+  font-size: 18px;
+  width: 250px;
+  margin: 30px 0 50px;
+  padding: 20px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 5px 15px #b9b3b3;
+          box-shadow: 0 5px 15px #b9b3b3;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#9356dc), to(#ff79da));
+  background-image: linear-gradient(to left top, #9356dc, #ff79da);
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.menu .btn:hover {
+  scale: 1.02;
+  -webkit-box-shadow: 0 5px 15px #635f5f;
+          box-shadow: 0 5px 15px #635f5f;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title h1 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 30px;
+  padding: 20px;
+  margin-left: 5px;
+}
+
+.title .heart i {
+  font-size: 30px;
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+.title .heart .coeur {
+  position: relative;
+  left: -30px;
+  opacity: 0;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#9356dc), to(#ff79da));
+  background-image: linear-gradient(to left top, #9356dc, #ff79da);
+  color: transparent;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.title .heart .fa-regular:hover, .title .heart .coeur:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#9356dc), to(#ff79da));
+  background-image: linear-gradient(to left top, #9356dc, #ff79da);
+  color: transparent;
+  opacity: 1;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.txt-menu {
+  margin-bottom: 10px;
+}
+
+.txt-menu span {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.txt-menu hr {
+  width: 50px;
+  margin: 5px;
+  border: 2px solid #99E2D0;
+}
+
+.choice {
+  padding: 15px;
+  margin-left: 10px;
+}
+
+.choice p {
+  font-size: 20px;
+}
+
+.push {
+  -webkit-animation: action 1s ease;
+          animation: action 1s ease;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  text-align: start;
+  width: 400px;
+  height: 80px;
+  margin: 10px 0 15px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 5px 15px #b9b3b3;
+          box-shadow: 0 5px 15px #b9b3b3;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.push:nth-child(1) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.push:nth-child(2) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.push:nth-child(3) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.push:nth-child(4) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.push:hover {
+  -webkit-box-shadow: 0 5px 15px #635f5f;
+          box-shadow: 0 5px 15px #635f5f;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.push:hover .cadre {
+  -webkit-transform: translateX(-80px);
+          transform: translateX(-80px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.push:hover i {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.push:hover h4,
+.push:hover p {
+  width: 250px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.push h4 {
+  width: 300px;
+  font-size: 20px;
+  padding: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.push p {
+  width: 320px;
+  font-size: 18px;
+  padding: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.push .complet {
+  color: black;
+  text-decoration: none;
+}
+
+.push .prix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  top: -20px;
+}
+
+.push h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  font-size: 15px;
+  height: 60px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.push .cadre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 355px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.push .icon {
+  position: relative;
+  top: -12px;
+  height: 80px;
+  padding: 2px;
+  background-color: #99E2D0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.push i {
+  position: relative;
+  top: 5px;
+  font-size: 15px;
+  margin: 25px;
+  padding: 5px;
+  color: #99E2D0;
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  color: white;
+}
+
+footer h2 {
+  font-family: 'Shrikhand', cursive;
+  margin-bottom: 15px;
+}
+
+.foot {
+  margin-bottom: 10px;
+}
+
+.foot a {
+  color: white;
+  text-decoration: none;
+}
+
+.foot .prop {
+  position: relative;
+  left: 6px;
+}
+/*# sourceMappingURL=selectFood.css.map */

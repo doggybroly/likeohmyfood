@@ -95,7 +95,7 @@
   }
   .res {
     height: 55vh;
-    background-image: url("./image/rest02.jpg");
+    background-image: url("/image/rest02.jpg");
     background-position: center;
     text-shadow: white 1px 2px;
   }
@@ -216,7 +216,7 @@
   }
 }
 
-@media screen and (min-width: 371px) and (max-width: 630px) {
+@media screen and (min-width: 460px) and (max-width: 630px) {
   .fonct h3 {
     position: relative;
     left: -15px;
