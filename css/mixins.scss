@@ -6,7 +6,7 @@
     }
 }
 @mixin palette{
-    background-image: url("/image/jay-wennington.jpg");
+    background-image: url("../image/jay-wennington.jpg");
     background-position:center;
     height: 50vh;    
     img {
@@ -14,7 +14,7 @@
     }
 }
 @mixin enchanté {
-    background-image: url("/image/stil-u2l2.jpg");
+    background-image: url("../image/stil-u2l2.jpg");
     background-position:center;
     height: 50vh;   
     img {
@@ -22,7 +22,7 @@
     }
 }
 @mixin française {
-    background-image: url("/image/toa-heftiba.jpg");
+    background-image: url("../image/toa-heftiba.jpg");
     background-position: center;
     height: 50vh;
 
@@ -31,7 +31,7 @@
     }
 }
 @mixin délice {
-    background-image: url("/image/louis-hansel.jpg");
+    background-image: url("../image/louis-hansel.jpg");
     background-position: center;
     height: 50vh;
 
