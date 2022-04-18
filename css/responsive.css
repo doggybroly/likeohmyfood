@@ -95,7 +95,7 @@
   }
   .res {
     height: 55vh;
-    background-image: url("/image/rest02.jpg");
+    background-image: url("./image/rest02.jpg");
     background-position: center;
     text-shadow: white 1px 2px;
   }
@@ -160,7 +160,7 @@
 
 @media screen and (min-width: 770px) and (max-width: 960px) {
   .res {
-    background-image: url("/image/rest02.jpg");
+    background-image: url("./image/rest02.jpg");
     background-position: center;
     text-shadow: white 1px 2px;
   }
