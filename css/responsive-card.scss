@@ -1,5 +1,5 @@
 @import "variable.scss";
-@import "mixins.scss";
+@import "mixins.css";
 
 @media #{$desktop}{
     nav{
@@ -13,7 +13,9 @@
         }
        
     }
-    .mag{@include palette;}
+    .mag{
+        @include palette;
+    }
     .mag1{@include enchanté;}
     .mag2{@include française;}
     .mag3{@include délice;}
@@ -69,7 +71,7 @@
     .mag3{@include délice;}   
     .main-menu{
         text-align: center;
-        .choice-menu{
+        .main-menu{
             position: relative;
             left: 100px;
         }
