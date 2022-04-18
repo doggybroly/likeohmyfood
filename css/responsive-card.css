@@ -96,7 +96,7 @@
     left: -50px;
   }
   .mag {
-    background-image: url("/image/jay-wennington.jpg");
+    background-image: url("./image/jay-wennington.jpg");
     background-position: center;
     height: 50vh;
   }
@@ -104,7 +104,7 @@
     display: none;
   }
   .mag1 {
-    background-image: url("/image/stil-u2l2.jpg");
+    background-image: url("./image/stil-u2l2.jpg");
     background-position: center;
     height: 50vh;
   }
@@ -112,7 +112,7 @@
     display: none;
   }
   .mag2 {
-    background-image: url("/image/toa-heftiba.jpg");
+    background-image: url("./image/toa-heftiba.jpg");
     background-position: center;
     height: 50vh;
   }
@@ -120,7 +120,7 @@
     display: none;
   }
   .mag3 {
-    background-image: url("/image/louis-hansel.jpg");
+    background-image: url("./image/louis-hansel.jpg");
     background-position: center;
     height: 50vh;
   }
@@ -218,7 +218,7 @@
 
 @media screen and (min-width: 770px) and (max-width: 960px) {
   .mag {
-    background-image: url("/image/jay-wennington.jpg");
+    background-image: url("./image/jay-wennington.jpg");
     background-position: center;
     height: 50vh;
   }
@@ -226,7 +226,7 @@
     display: none;
   }
   .mag1 {
-    background-image: url("/image/stil-u2l2.jpg");
+    background-image: url("./image/stil-u2l2.jpg");
     background-position: center;
     height: 50vh;
   }
@@ -234,7 +234,7 @@
     display: none;
   }
   .mag2 {
-    background-image: url("/image/toa-heftiba.jpg");
+    background-image: url("./image/toa-heftiba.jpg");
     background-position: center;
     height: 50vh;
   }
@@ -242,7 +242,7 @@
     display: none;
   }
   .mag3 {
-    background-image: url("/image/louis-hansel.jpg");
+    background-image: url("./image/louis-hansel.jpg");
     background-position: center;
     height: 50vh;
   }
