@@ -95,7 +95,7 @@
   }
   .res {
     height: 55vh;
-    background-image: url("/image/rest02.jpg");
+    background-image: url("rest02.jpg");
     background-position: center;
     text-shadow: white 1px 2px;
   }
