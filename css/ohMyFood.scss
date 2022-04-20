@@ -191,6 +191,7 @@ nav{
 }
 
 .card{
+    
     @extend .fonct;
     background-color: rgba(128, 128, 128,0.2);
         h3{
@@ -206,7 +207,8 @@ nav{
             width: 80px;
             background-color: $tertiary;
         }
-        .pic{     
+        
+        .pic{   
             width: 350px;
             height: 250px;
             margin-bottom: 20px;
@@ -271,7 +273,6 @@ footer {
     background-color: rgba(0, 0, 0, 0.8);
     padding: 30px;
     color: white;
-    z-index: 2;
     h2 {
         font-family: 'Shrikhand', cursive;
         margin-bottom: 15px;
